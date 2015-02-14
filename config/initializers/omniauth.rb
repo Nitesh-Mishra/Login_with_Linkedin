@@ -1,5 +1,5 @@
 OmniAuth.config.logger = Rails.logger
 
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :linkedin, "78woxk1sucpgnm", "SrTONeLwFOCpfgpX"
+  provider :linkedin, "consumer_api", "consumer_secret"
 end
